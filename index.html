@@ -8,29 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Weather App Project</h1>
-    <h2>Please enter a destination:</h2>
-        <div class="search">
-            <input type="text" name="searchbar">
-            <button>Search</button>
+    <header>
+        <h1>Weather App Project</h1>
+        <h2>What's the temperature where you are?</h2>
+        <div class="weather-container">
+            <div class="search-area">
+                <input type="text" class="search-box" placeholder="Search">
+                <button class="search-button">Search</button>
+            </div>
+            <div class="weather">
+                <h2 class="weather-destination">You searched for...<br>Edinburgh</h2>
+                <h1 class="weather-temperature">10°C</h1>
+                <img src="http://openweathermap.org/img/w/50n.png" class="weather-icon" alt="">
+                <div class="weather-description weather-details">Rain Showers</div>
+                <div class="humidity-level weather-details">Humidity Level: 33%</div>
+                <div class="wind-level weather-details ">Wind Speed: 7.5km/h</div>
+            </div>
         </div>
-        <div class="weather">
-            <h2 class="destination">Weather in Edinburgh</h2>
-            <div class="temperature">10°C</div>
-            <img src="" class="weather-icon" alt="">
-            <div class="weather-description">Rain Showers</div>
-            <div class="humidity-level">Humidity Level: 33%</div>
-            <div class="wind-level">Speed of Wind: 7.5km/h</div>
-
-        </div>
-
-
-
-
-
-    </div>
-
+        </header>
+        <script src="script.js"></script>
+    </body>
+    </html>
     
-    <script src="script.js"></script>
 </body>
+</html>
+
+
 </html>
