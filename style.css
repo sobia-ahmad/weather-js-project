@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: rgb(205, 203, 203);
+    background-image: url('https://content.thriveglobal.com/wp-content/uploads/2018/04/natalie-toombs-448839-unsplash.jpg?w=1550');
+    background-size: cover;
+    object-fit: fill;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 70vh;
+    font-size: 120%;
+}
+
+header h1 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 50px;
+    color:rgb(55, 153, 171);
+}
+
+header h2 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 35px;
+    color:rgb(70, 72, 72);
+}
+
+
+.weather-container {
+    margin: 10px;
+    padding: 50px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 30px;
+    background:rgb(55, 153, 171);
+}
+
+input[type="text"], button {
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    margin-inline: auto;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(70, 72, 72);
+    background:rgb(208, 238, 244);
+    border-color: rgb(255, 255, 255);
+}
+
+input[type="text"]:hover {
+    color: rgb(70, 72, 72);
+    background:rgb(170, 227, 238);
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+    transition-duration: 0.9s;
+    border-color:rgb(80, 200, 212);
+}
+
+button {
+    color: rgb(114, 107, 107);
+    background:rgb(165, 233, 247);
+    font-weight: 700;
+    border-color: rgb(77, 187, 210);
+    border-radius: 10px;
+    outline: none;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background:rgb(77, 187, 210);
+    font-weight: 900;
+    transition-duration: 0.9s;
+    outline: none;
+}
+
+.weather-temperature {
+    color:rgb(255, 255, 255);
+}
+
+
+.weather-details{
+    color:rgb(249, 242, 242);
+    font-size: 25px;;
+}
+
+.weather-destination h2 {
+    font-size: 50px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
